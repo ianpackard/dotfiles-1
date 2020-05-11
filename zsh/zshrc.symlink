@@ -60,7 +60,7 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 POWERLEVEL9K_MODE="nerdfont-complete"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="random"
+ZSH_THEME="edvardm"
 
 # zsh tmux settings
 if [ "$TERMINAL_EMULATOR" != "JetBrains-JediTerm" ]
@@ -82,3 +82,6 @@ plugins=(sudo git history taskwarrior tmux tmuxinator zsh-completions zsh-autosu
 
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
