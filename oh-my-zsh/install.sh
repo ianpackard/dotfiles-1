@@ -38,6 +38,8 @@ git_clone_if_required https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-
 
 git_clone_if_required https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
+git_clone_if_required https://github.com/superbrothers/zsh-kubectl-prompt.git ~/.oh-my-zsh/custom/plugins/zsh-kubectl-prompt
+
 # powerlevel10k install
 echo ''
 echo "Now installing powerlevel10k..."
